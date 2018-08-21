@@ -12,6 +12,10 @@ class OutputTest extends TestCase
         $this->assertClassHasAttribute('str', StrUtils::class );
         
     }
+    public function testBold(){
+        $gras = new StrUtils('ca marche');
+        $this->assertEquals('<b>ca marche</b>', $gras->bold);
+    }
     
 }
 ?>
