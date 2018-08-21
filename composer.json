@@ -10,8 +10,8 @@
         "phpunit/phpunit": "^6"
     },
     "scripts": {
-        "test" : "./vendor/bin/phpunit testUnit.php",
-        "topdepart" : "php -S localhost:8000"
+        "test" : "./vendor/bin/phpunit StrUtilsTest.php",
+        "serveur" : "php -S localhost:8000"
 
     }
     

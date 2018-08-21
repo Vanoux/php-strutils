@@ -12,15 +12,15 @@
 
 <h1>Exo StrUtils</h1>
   <?php
-    include('classes/StrUtils.class.php');
+    include('classes/StrUtils.php');
 
     $myStr = new StrUtils('php is awesome !!!');
 
     echo $myStr->getBold() . '<br>';
     echo $myStr->getItalic() . '<br>';
     echo $myStr->getUnderline(). '<br>';
-    echo $myStr->getCapitalize();
- 
+    echo $myStr->getCapitalize() . '<br>';
+    echo $myStr->getUglify();
  ?>
 
 </body>
