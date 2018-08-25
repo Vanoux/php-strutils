@@ -4,7 +4,7 @@ class StrUtils{
   
     private $str;
 
-public function __construct($str){
+public function __construct($str){ // A priori ca marche mais j'ai inversé la function du constructeur avec les public function en dessous
     $this->bold = '<b>'.($str).'</b>';
     $this->italic = '<i>' .($str).'</i>';
     $this->underline = '<u>'.($str).'</u>';
