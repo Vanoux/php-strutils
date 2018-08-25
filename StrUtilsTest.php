@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 class OutputTest extends TestCase
 {
-    //test 
+    //test
     
     public function testStrUtils(){
         $this->assertClassHasAttribute('str', StrUtils::class );
